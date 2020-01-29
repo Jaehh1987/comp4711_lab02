@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Bangers', cursive;
 }
 
-a {
-  color: #00B7FF;
+.myDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#box {
+  border-style: solid;
+  border-color: grey;
+  padding: 2%;
+  display: flex;
+  width: 30%;
+}
+
+#box:hover {
+  background-color: lightsteelblue;
+}
+
+#textBox {
+  margin-left: 10%;
+  display: block;
+}
+
+#name {
+  font-size: 14px; 
+}
+
+#info {
+  font-size: 10px;
+  font-style: italic;
 }
